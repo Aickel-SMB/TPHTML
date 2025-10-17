@@ -1,0 +1,67 @@
+$ColorP : navy;
+$ColorS : black;
+$ColorT : #030336;
+body{
+    background-color: rgb(255, 255, 255);
+    color: $ColorP;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 40px;
+
+    h1 {
+        color: $ColorP;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        border: $ColorS 2px solid;
+        text-align: center;
+    }
+
+    h2 {
+        color: $ColorP;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid $ColorS;
+    }
+
+    td {
+        background-color: #00bfff;
+    }
+
+    th {
+        background-color: $ColorT;
+        color: white;
+    }
+
+    ul {
+        list-style-type: square;  /* Change le style des puces en carrés */
+        padding-left: 20px;       /* Ajuste l'espacement à gauche */
+        margin: 10px 0;           /* Ajoute de l'espace avant et après les listes */
+    }
+
+    /* Style spécifique pour les éléments de liste */
+    li {
+        margin: 10px 0;            /* Espace entre les éléments de liste */
+        padding-left: 10px;       /* Espace après la puce */
+    }
+
+    hr {
+        border: 0;
+        height: 5px;
+        background: $ColorP;
+        margin: 0px 0; /* Ajoute de l'espace avant et après la ligne */
+    }
+}
